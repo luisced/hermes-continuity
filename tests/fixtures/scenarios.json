@@ -1,0 +1,7 @@
+[
+  {"name":"reembolso_pending","text":"Please follow up on the reembolso; the bank only acknowledged the request.","kind":"commitment","owner":"human","expected":"open"},
+  {"name":"assistant_document_request","text":"Please prepare a document for review.","kind":"commitment","owner":"assistant","expected":"open"},
+  {"name":"casual_interest","text":"That hiking route sounds interesting someday.","kind":"opportunity","owner":"human","expected":"open"},
+  {"name":"ambiguous_close","text":"I think the refund is probably handled.","kind":"pending_close","owner":"human","expected":"open"},
+  {"name":"stale_memory","text":"An old note says it may have been booked last year.","kind":"pending_close","owner":"human","expected":"open"}
+]

@@ -1,0 +1,4 @@
+{
+  "purpose": "wellbeing",
+  "any_of": ["emotional_state", "energy", "rest", "support"]
+}

@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "scope": "Synthetic facts only; configured PluginLlm inference, not live native capture or human quality acceptance",
+  "cases": [
+    {"id": "es-reply", "text": "Ya quedó, gracias", "reply": true, "similar": true, "proposal": "associate", "apply": "closed"},
+    {"id": "en-reply", "text": "Everything is sorted out now, thank you for keeping track.", "reply": true, "similar": true, "proposal": "associate", "apply": "closed"},
+    {"id": "es-reminder-scope", "text": "Ya llegó el reembolso a mi cuenta. Ciérralo y no me lo recuerdes más.", "reply": true, "proposal": "associate", "apply": "closed"},
+    {"id": "ambiguous", "text": "Ya quedó, gracias", "similar": true, "proposal": "clarify", "apply": "needs_confirmation"},
+    {"id": "negation", "text": "No quedó; aún no he recibido el reembolso.", "reply": true, "proposal": "associate", "apply": "needs_confirmation"},
+    {"id": "third-party", "text": "Me dijeron “ya quedó”, pero yo no lo he comprobado.", "reply": true, "proposal": "associate", "apply": "needs_confirmation"},
+    {"id": "future", "text": "I will receive the refund tomorrow.", "reply": true, "proposal": "associate", "apply": "needs_confirmation"},
+    {"id": "uncertain", "text": "Quizá ya quedó, no sé si el dinero llegó.", "reply": true, "proposal": "associate", "apply": "needs_confirmation"},
+    {"id": "transport", "text": "The transport accepted the message about the refund; that is only a receipt, not proof of payment.", "reply": true, "proposal": "associate", "apply": "needs_confirmation"},
+    {"id": "memory", "text": "I remember receiving a refund last year, not this refund.", "reply": true, "proposal": "associate", "apply": "needs_confirmation"},
+    {"id": "child-delivery", "text": "The assistant says the refund letter was delivered. I have not received the money.", "reply": true, "proposal": "associate", "apply": "needs_confirmation"},
+    {"id": "unrelated", "text": "El jardín está precioso esta mañana.", "proposal": "unrelated", "apply": "unrelated"}
+  ]
+}

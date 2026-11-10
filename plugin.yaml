@@ -1,0 +1,13 @@
+name: hermes-continuity
+version: 0.2.0
+description: Evidence-backed conversational follow-through, scoped workflows, and optional contextual check-ins.
+author: Hermes Continuity contributors
+license: MIT
+provides_hooks:
+  - pre_llm_call
+  - post_llm_call
+config_schema:
+  collect_references:
+    type: boolean
+    default: false
+    description: Enable verified profile-session turn intake after explicit identity setup (state schemas v32/v33).
